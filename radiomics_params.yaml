@@ -1,0 +1,81 @@
+imageType:
+  Original: {}
+
+featureClass:
+  firstorder:
+    - Energy
+    - Entropy
+    - Maximum
+    - Minimum
+    - Mean
+    - Median
+    - Range
+    - Uniformity
+    - Variance
+  shape:
+    - MeshVolume 
+    - SurfaceArea
+    - Sphericity
+    - Maximum3DDiameter
+    - MajorAxisLength
+    - LeastAxisLength
+    - Elongation
+    - Flatness
+  glcm:
+    - Autocorrelation
+    - JointAverage
+    - ClusterProminence
+    - ClusterShade
+    - ClusterTendency
+    - Contrast
+    - Correlation
+    - DifferenceEntropy
+    - DifferenceAverage
+    - JointEnergy
+    - JointEntropy
+  glrlm:
+    - ShortRunEmphasis
+    - LongRunEmphasis
+    - GrayLevelNonUniformity
+    - RunLengthNonUniformity
+    - RunPercentage
+    - LowGrayLevelRunEmphasis
+    - HighGrayLevelRunEmphasis
+    - ShortRunLowGrayLevelEmphasis
+    - ShortRunHighGrayLevelEmphasis
+    - LongRunLowGrayLevelEmphasis
+    - LongRunHighGrayLevelEmphasis
+  glszm:
+    - SizeZoneNonUniformity
+    - SizeZoneNonUniformityNormalized
+    - ZonePercentage
+    - GrayLevelVariance
+    - ZoneVariance
+    - LowGrayLevelZoneEmphasis
+    - HighGrayLevelZoneEmphasis
+    - SmallAreaEmphasis
+    - LargeAreaEmphasis
+    - SmallAreaLowGrayLevelEmphasis
+    - SmallAreaHighGrayLevelEmphasis
+    - LargeAreaLowGrayLevelEmphasis
+    - LargeAreaHighGrayLevelEmphasis
+  gldm:
+    - DependenceNonUniformity
+    - DependenceNonUniformityNormalized
+    - GrayLevelVariance
+    - DependenceVariance
+    - DependenceEntropy
+    - LowGrayLevelEmphasis
+    - HighGrayLevelEmphasis
+  ngtdm:
+    - Coarseness
+    - Contrast
+    - Busyness
+    - Complexity
+    - Strength
+
+setting:
+  resampledPixelSpacing: [1, 1, 1]
+  interpolator: 'sitkBSpline'
+  binWidth: 25
+  label: 1
