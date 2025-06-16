@@ -12,3 +12,12 @@ Created at the Department of Medical Physics, School of Medicine, University of 
 This project is licensed under the **Apache License 2.0**.  
 
 ---
+---
+
+### 📚 Cite this work
+
+If you use this tool, please cite:
+
+>Tzanis E, Stratakis J, Damilakis J. A machine learning approach for personalized breast radiation dosimetry in CT: Integrating radiomics and deep neural networks. Eur J Radiol. 2025 Jun 11;190:112236. doi: [https://doi.org/10.1016/j.ejrad.2025.112236](https://doi.org/10.1016/j.ejrad.2025.112236)
+
+---
